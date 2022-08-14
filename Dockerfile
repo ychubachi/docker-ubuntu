@@ -38,6 +38,7 @@ COPY --chown=docker mozc-config1.db /home/docker/.config/mozc/config1.db
 # Tools
 RUN apt-get -y install less vim
 RUN apt-get -y install emacs
+RUN apt-get -y install git gh
 
 # Texlive
 WORKDIR /tmp
