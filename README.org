@@ -1,0 +1,4 @@
+* README.org
+
+- fcitxの設定ファイル
+  - ~/.config/fcitx
